@@ -1,0 +1,40 @@
+=== DATASET SUMMARY ===
+  total_rows                     100000
+  inbound_rows                   54693
+  outbound_rows                  45307
+  inbound_pct                    54.69
+  duplicate_rows                 0
+  duplicate_tweet_ids            0
+  missing_text                   0
+  missing_response_id            36835
+  unique_authors                 51151
+  date_min                       2012-12-14 01:43:51+00:00
+  date_max                       2017-12-03 23:02:33+00:00
+  text_len_mean                  113.8
+  text_len_median                115.0
+  text_len_min                   2
+  text_len_max                   442
+  text_len_p95                   214.0
+
+=== TOP 20 BRANDS ===
+          brand  outbound_tweets  inbound_msgs  conversations
+     AmazonHelp             6046           144            144
+   AppleSupport             3773            34             34
+   VirginTrains              927            28             28
+   Uber_Support             1968            26             26
+    AmericanAir             1310            20             20
+        GWRHelp              680            19             19
+    TMobileHelp             1253            19             19
+ VerizonSupport              639            19             19
+   Ask_Spectrum              947            19             19
+British_Airways              993            18             15
+             O2              595            16             16
+ AskPlayStation              617            16             15
+   SouthwestAir             1057            15             12
+        SW_Help              461            15             14
+   ArgosHelpers              470            15             15
+    XboxSupport              835            14             14
+   SpotifyCares             1561            13             13
+          Delta             1557            12             11
+   hulu_support              731            11             11
+   comcastcares             1157            11             11

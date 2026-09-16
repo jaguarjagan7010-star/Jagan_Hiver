@@ -1,0 +1,10 @@
+,account_access,app_issue,billing_payment,connectivity,device_hardware,icloud_sync,other,software_update,warranty_repair
+account_access,23,1,0,0,0,0,3,0,0
+app_issue,0,21,0,0,1,0,11,1,2
+billing_payment,0,0,3,0,0,0,1,0,0
+connectivity,0,0,0,3,0,0,0,0,0
+device_hardware,1,1,0,0,12,0,9,1,0
+icloud_sync,0,0,0,0,0,23,3,0,0
+other,36,119,3,13,72,10,2148,190,16
+software_update,0,0,0,1,1,2,11,61,0
+warranty_repair,0,0,0,0,0,0,0,0,4

@@ -1,0 +1,73 @@
+{
+  "model": "majority_baseline",
+  "n_samples": 2807,
+  "accuracy": 0.9287,
+  "accuracy_ci_95": [
+    0.9191,
+    0.9373
+  ],
+  "macro_f1": 0.107,
+  "macro_f1_ci_95": [
+    0.1064,
+    0.1075
+  ],
+  "weighted_f1": 0.8944,
+  "macro_precision": 0.1032,
+  "macro_recall": 0.1111,
+  "per_class": {
+    "account_access": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 27
+    },
+    "app_issue": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 36
+    },
+    "billing_payment": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 4
+    },
+    "connectivity": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 3
+    },
+    "device_hardware": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 24
+    },
+    "icloud_sync": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 26
+    },
+    "other": {
+      "precision": 0.9287,
+      "recall": 1.0,
+      "f1": 0.9631,
+      "support": 2607
+    },
+    "software_update": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 76
+    },
+    "warranty_repair": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 4
+    }
+  }
+}

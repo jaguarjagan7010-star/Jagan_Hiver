@@ -1,0 +1,34 @@
+=== LOADING DATA ===
+Loading existing splits...
+Train: 13439  Val: 2822  Test: 2807
+
+=== PHASE 7: MAJORITY BASELINE ===
+Majority class: other
+Accuracy:    0.9287
+Macro F1:    0.107
+Weighted F1: 0.8944
+
+=== PHASE 8: TF-IDF + LOGISTIC REGRESSION ===
+  C=0.1  val_macro_f1=0.5605
+  C=1.0  val_macro_f1=0.6425
+  C=10.0  val_macro_f1=0.6699
+Best C=10.0 (val macro F1=0.6699)
+Accuracy:    0.9544
+Macro F1:    0.612
+Weighted F1: 0.9546
+
+Top features per intent:
+  account_access: apple id, id, hacked, locked out, verification code, verification, can access, locked
+  app_issue: open, apps, app, crash, load, download, error, work
+  billing_payment: refund, money, half, nah, return, customer, they, year and
+  connectivity: hotspot, signal, network, wifi, talked to, can, are having, talked
+  device_hardware: hardware, repair, drain, battery drain, dead, genius, genius bar, battery
+  icloud_sync: icloud, storage, my icloud, full, icloud account, in icloud, on icloud, sync
+  other: 11, the update, new update, have the, ios 11, the screen, actually, and it
+  software_update: update, ios, software update, ios update, software, 11 update, the ios, installed
+  warranty_repair: warranty, applecare, apple care, care, find, service center, it to, find my
+
+Saved model: D:\SDE intern\hiver-support-agent\data\processed\tfidf_lr_model.pkl
+Saved comparison: D:\SDE intern\hiver-support-agent\reports\results\comparison.csv
+
+Phases 7+8 complete.

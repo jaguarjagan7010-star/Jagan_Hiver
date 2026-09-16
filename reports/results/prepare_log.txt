@@ -1,0 +1,18 @@
+Loading data for brand: AppleSupport
+Full dataset: 2,811,774 rows
+Brand inbound messages: 36,658
+Sampled to 20,000
+Labelled messages: 19,068
+Intent distribution:
+intent
+other              17854
+software_update      414
+icloud_sync          217
+app_issue            209
+device_hardware      156
+account_access       128
+warranty_repair       52
+billing_payment       20
+connectivity          18
+Train: 13439  Val: 2822  Test: 2807
+Saved train/validation/test CSVs

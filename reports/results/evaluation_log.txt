@@ -1,0 +1,44 @@
+Golden set: D:\SDE intern\hiver-support-agent\data\golden\golden_set.csv
+Backend: template
+
+=== CLASSIFIER EVALUATION ===
+majority_baseline: accuracy=0.9287  macro_f1=0.107  95%CI=[0.1064,0.1075]
+tfidf_lr: accuracy=0.9544  macro_f1=0.612  95%CI=[0.541,0.6447]
+embedding_lr: unavailable (OSError: [WinError 126] The specified module could not be found. Error loading "D:\SDE intern\hiver-support-agent\.venv\lib\site-packages\torch\lib\shm.dll" or one of its dependencies.)
+Comparison table saved.
+
+=== RETRIEVAL EVALUATION ===
+Retrieval evaluation unavailable (OSError: [WinError 126] The specified module could not be found. Error loading "D:\SDE intern\hiver-support-agent\.venv\lib\site-packages\torch\lib\shm.dll" or one of its dependencies.)
+
+=== GOLDEN SET EVALUATION ===
+Golden set: 155 examples
+Human-labelled rows: 131
+Auto-label accuracy vs human: 0.618
+Auto-label macro F1 vs human: 0.614
+No should_escalate labels found. Add them to the golden set.
+
+LLM judge skipped (backend=template). Use --backend ollama to enable.
+
+=== TOP-5 FAILURE ANALYSIS ===
+Total errors: 128 / 2807 (4.6%)
+
+Top-5 confusion pairs (true → predicted):
+  other → software_update: 38 errors
+    e.g.: "The latest update from yesterday"
+    e.g.: "started before downloading 11.1 (was never able to download 11.0.3). hasn't gott"
+  other → app_issue: 24 errors
+    e.g.: "You still have to open you phone, open the app and hit the play button. Whilst d"
+    e.g.: "It continually freezes, both running multiple apps and just single apps, half th"
+  app_issue → other: 21 errors
+    e.g.: "the whole phone. Sometimes the apps just crash, other times the phone just freez"
+    e.g.: "My battery was at 80%, and this must have been the 2nd time it's happened. I tho"
+  software_update → other: 16 errors
+    e.g.: "I keep trying to install the latest update but it keeps telling me there is an e"
+    e.g.: "My gallery videos do not play unless you are connected to the internet or someti"
+  device_hardware → other: 6 errors
+    e.g.: "My MacBook just crashed! Cursor hung, then it restarted on its own every 6 secon"
+    e.g.: "Wallet brings us to the AppStore that sells hardware, i don’t want that AppStore"
+
+Full failure list saved to failure_analysis.csv
+
+Evaluation complete.

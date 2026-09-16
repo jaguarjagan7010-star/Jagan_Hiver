@@ -1,0 +1,73 @@
+{
+  "model": "embedding_lr",
+  "n_samples": 2807,
+  "accuracy": 0.8187,
+  "accuracy_ci_95": [
+    0.8044,
+    0.8322
+  ],
+  "macro_f1": 0.468,
+  "macro_f1_ci_95": [
+    0.3903,
+    0.5218
+  ],
+  "weighted_f1": 0.8611,
+  "macro_precision": 0.3789,
+  "macro_recall": 0.7996,
+  "per_class": {
+    "account_access": {
+      "precision": 0.3833,
+      "recall": 0.8519,
+      "f1": 0.5287,
+      "support": 27
+    },
+    "app_issue": {
+      "precision": 0.1479,
+      "recall": 0.5833,
+      "f1": 0.236,
+      "support": 36
+    },
+    "billing_payment": {
+      "precision": 0.5,
+      "recall": 0.75,
+      "f1": 0.6,
+      "support": 4
+    },
+    "connectivity": {
+      "precision": 0.1765,
+      "recall": 1.0,
+      "f1": 0.3,
+      "support": 3
+    },
+    "device_hardware": {
+      "precision": 0.1395,
+      "recall": 0.5,
+      "f1": 0.2182,
+      "support": 24
+    },
+    "icloud_sync": {
+      "precision": 0.6571,
+      "recall": 0.8846,
+      "f1": 0.7541,
+      "support": 26
+    },
+    "other": {
+      "precision": 0.9826,
+      "recall": 0.8239,
+      "f1": 0.8963,
+      "support": 2607
+    },
+    "software_update": {
+      "precision": 0.2411,
+      "recall": 0.8026,
+      "f1": 0.3708,
+      "support": 76
+    },
+    "warranty_repair": {
+      "precision": 0.1818,
+      "recall": 1.0,
+      "f1": 0.3077,
+      "support": 4
+    }
+  }
+}

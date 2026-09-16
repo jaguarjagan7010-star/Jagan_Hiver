@@ -1,0 +1,27 @@
+Brand: AppleSupport
+Loading data...
+Loaded 2,811,774 rows
+Reconstructing conversation pairs...
+Found 106,623 customer/brand pairs
+After cleaning: 104,994 pairs
+
+=== LEAKAGE AUDIT ===
+Train conversation IDs: 12,121
+Test conversation IDs (excluded): 2,598
+Val conversation IDs (excluded): 2,597
+Golden set conversation IDs (excluded): 0
+
+Pairs in train split:          1,623
+Pairs excluded (test/val/gold): 416
+Pairs indexed (clean):          1,623
+
+Leakage check:
+  Index ∩ test:   0 (must be 0)
+  Index ∩ golden: 0 (must be 0)
+  PASS: No leakage detected.
+=== END LEAKAGE AUDIT ===
+
+Building FAISS index over 1,623 texts...
+Index saved to D:\SDE intern\hiver-support-agent\data\processed\faiss_index
+Index size: 1623 vectors
+build_retrieval complete.

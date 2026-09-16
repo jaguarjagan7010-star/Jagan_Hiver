@@ -1,0 +1,44 @@
+# requirements.txt
+# Python 3.10 or 3.11 recommended.
+# Install with: pip install -r requirements.txt
+
+# ── Core data ──────────────────────────────────────────────────────────────────
+pandas>=2.0
+numpy>=1.24
+
+# ── Machine learning ───────────────────────────────────────────────────────────
+scikit-learn>=1.3
+
+# ── Deep learning / embeddings ─────────────────────────────────────────────────
+# PyTorch CPU-only build keeps the download small on a laptop.
+# If you have a GPU, replace with the appropriate CUDA build from pytorch.org.
+torch>=2.0
+sentence-transformers>=2.6
+
+# ── Vector search ──────────────────────────────────────────────────────────────
+# faiss-cpu is the CPU-only FAISS build (no GPU required).
+faiss-cpu>=1.7
+
+# ── Visualisation ──────────────────────────────────────────────────────────────
+matplotlib>=3.7
+seaborn>=0.12
+
+# ── Notebooks ──────────────────────────────────────────────────────────────────
+jupyter>=1.0
+ipykernel>=6.0
+
+# ── Environment / config ───────────────────────────────────────────────────────
+python-dotenv>=1.0
+
+# ── HTTP (for Ollama backend) ──────────────────────────────────────────────────
+requests>=2.31
+
+# ── Testing ────────────────────────────────────────────────────────────────────
+pytest>=7.4
+pytest-cov>=4.1
+
+# ── Kaggle download (optional, for automated data download) ───────────────────
+kaggle>=1.6
+
+# ── Progress bars ──────────────────────────────────────────────────────────────
+tqdm>=4.65
